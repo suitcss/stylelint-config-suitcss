@@ -60,7 +60,9 @@ module.exports = {
     "number-zero-length-no-unit": true,
     "property-no-vendor-prefix": true,
     "root-no-standard-properties": true,
-    "rule-nested-empty-line-before": "always-multi-line",
+    "rule-nested-empty-line-before": [ "always-multi-line", {
+      except: ["first-nested"]
+    } ],
     "rule-non-nested-empty-line-before": "always-multi-line",
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
