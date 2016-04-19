@@ -2,7 +2,7 @@ module.exports = {
   "rules": {
     "at-rule-empty-line-before": [ "always", {
       ignore: ["after-comment"],
-      except: ["blockless-group", "first-nested"],
+      except: [ "blockless-group", "first-nested" ],
     } ],
     "at-rule-no-vendor-prefix": true,
     "block-closing-brace-newline-after": "always",
@@ -20,7 +20,7 @@ module.exports = {
     "declaration-bang-space-after": "never",
     "declaration-bang-space-before": "always",
     "declaration-block-no-duplicate-properties": [ true, {
-      ignore: ["consecutive-duplicates"]
+      ignore: ["consecutive-duplicates"],
     } ],
     "declaration-block-no-shorthand-property-overrides": true,
     "declaration-block-properties-order": "alphabetical",
@@ -65,7 +65,7 @@ module.exports = {
     "property-no-vendor-prefix": true,
     "root-no-standard-properties": true,
     "rule-nested-empty-line-before": [ "always-multi-line", {
-      except: ["first-nested"]
+      except: ["first-nested"],
     } ],
     "rule-non-nested-empty-line-before": "always-multi-line",
     "selector-combinator-space-after": "always",
