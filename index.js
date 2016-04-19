@@ -1,7 +1,8 @@
 module.exports = {
   "rules": {
     "at-rule-empty-line-before": [ "always", {
-      except: ["blockless-group"],
+      ignore: ["after-comment"],
+      except: ["blockless-group", "first-nested"],
     } ],
     "at-rule-no-vendor-prefix": true,
     "block-closing-brace-newline-after": "always",
