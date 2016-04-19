@@ -19,6 +19,9 @@ module.exports = {
     "comment-whitespace-inside": "always",
     "declaration-bang-space-after": "never",
     "declaration-bang-space-before": "always",
+    "declaration-block-no-duplicate-properties": [ true, {
+      ignore: ["consecutive-duplicates"]
+    } ],
     "declaration-block-no-shorthand-property-overrides": true,
     "declaration-block-properties-order": "alphabetical",
     "declaration-block-semicolon-newline-after": "always-multi-line",
