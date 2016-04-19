@@ -29,7 +29,6 @@ const validCss = (
 /* Single-line comment */
 
 @media (min-width >= 60em) {
-
   .selector {
     transform: translate(1, 1) scale(3);
   }
@@ -37,7 +36,6 @@ const validCss = (
 }
 
 @media (min-orientation: portrait), projection and (color) {
-
   .selector-i + .selector-ii {
     background: color(rgb(0, 0, 0) lightness(50%));
     font-family: helvetica, arial, sans-serif;
@@ -47,7 +45,6 @@ const validCss = (
 
 @media screen and screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
-
   .selector {
     background-image:
       repeating-linear-gradient(
