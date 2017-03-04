@@ -21,8 +21,8 @@
   ],
   "devDependencies": {
     "ava": "^0.13.0",
-    "eslint": "^2.4.0",
-    "eslint-config-stylelint": "^1.0.0",
+    "eslint": "^3.17.0",
+    "eslint-config-stylelint": "^6.0.0",
     "npmpub": "^3.0.1",
     "stylelint": "^7.8.0"
   },
@@ -39,7 +39,10 @@
   "eslintConfig": {
     "extends": [
       "stylelint"
-    ]
+    ],
+    "parserOptions": {
+      "sourceType": "module"
+    }
   },
   "dependencies": {
     "stylelint-order": "^0.3.0",
