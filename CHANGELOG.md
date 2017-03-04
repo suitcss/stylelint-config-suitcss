@@ -1,5 +1,6 @@
 # Head
 
+* Updated: `ava` to `0.18.2`
 * Updated: `eslint` to `3.17.0`
 * Updated: `eslint-config-stylelint` to `6.0.0`
 * Updated: `stylelint-order` to `0.3.0`
