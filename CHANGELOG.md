@@ -1,3 +1,9 @@
+# Head
+
+* Added: `suitcss/root-no-standard-properties`
+* Added: `suitcss/selector-root-no-composition`
+* Added: `suitcss/custom-property-no-outside-root`
+
 # 9.0.0
 
 * Removed: `root-no-standard-properties`.
