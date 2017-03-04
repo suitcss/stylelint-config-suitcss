@@ -42,7 +42,7 @@
     ]
   },
   "dependencies": {
-    "stylelint-order": "^0.2.2",
+    "stylelint-order": "^0.3.0",
     "stylelint-suitcss": "^1.0.0"
   }
 }

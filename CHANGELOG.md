@@ -1,5 +1,6 @@
 # Head
 
+* Updated: `stylelint-order` to `0.3.0`
 * Added: `suitcss/root-no-standard-properties`
 * Added: `suitcss/selector-root-no-composition`
 * Added: `suitcss/custom-property-no-outside-root`
