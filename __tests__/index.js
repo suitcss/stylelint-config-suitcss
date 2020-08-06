@@ -71,14 +71,12 @@ const validCss = (
   }
 
 }
-
 `)
 
 const invalidCss = (
 `a {
   top: .2em;
 }
-
 `)
 
 test("no warnings with valid css", t => {
