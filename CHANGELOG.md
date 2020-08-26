@@ -1,3 +1,9 @@
+# 15.0.0
+
+* Updated: `stylelint` to `13.6.1`
+* Updated: `stylelint-order` to `4.1.0`
+
+
 # 14.0.0
 
 * Updated: `stylelint` to `9.0.0`
