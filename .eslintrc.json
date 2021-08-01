@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "stylelint"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "jest/expect-expect": "off",
+    "jest/no-done-callback": "off",
+    "jest/no-deprecated-functions": "off",
+    "node/no-unsupported-features/es-syntax": [
+      "error",
+      {
+        "ignores": [
+          "modules"
+        ]
+      }
+    ]
+  }
+}
