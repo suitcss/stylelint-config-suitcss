@@ -1,3 +1,5 @@
+# 16.0.0
+
 * Updated: `npmpub` to `5.0.0`
 * Updated: `stylelint` to `13.13.1`
 * Updated: `eslint` to `7.32.0`
