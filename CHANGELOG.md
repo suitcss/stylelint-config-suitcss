@@ -1,8 +1,13 @@
+* Updated: `npmpub` to `5.0.0`
+* Updated: `stylelint` to `13.13.1`
+* Updated: `eslint` to `7.32.0`
+* Updated: `eslint-config-stylelint` to `13.1.1`
+* Updated: `ava` to `3.15.0`
+
 # 15.0.0
 
 * Updated: `stylelint` to `13.6.1`
 * Updated: `stylelint-order` to `4.1.0`
-
 
 # 14.0.0
 
