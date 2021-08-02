@@ -19,6 +19,17 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "ava": "ava --verbose \"__tests__/**/*.js\"",
+    "lint": "eslint . --ignore-path .gitignore",
+    "pretest": "yarn run lint",
+    "release": "npmpub",
+    "test": "yarn run ava"
+  },
+  "dependencies": {
+    "stylelint-order": "^4.1.0",
+    "stylelint-suitcss": "^3.0.0"
+  },
   "devDependencies": {
     "@ava/babel": "^2.0.0",
     "ava": "^3.15.0",
@@ -29,18 +40,7 @@
   "peerDependencies": {
     "stylelint": "^13.13.1"
   },
-  "scripts": {
-    "ava": "ava --verbose \"__tests__/**/*.js\"",
-    "lint": "eslint . --ignore-path .gitignore",
-    "pretest": "yarn run lint",
-    "release": "npmpub",
-    "test": "yarn run ava"
-  },
   "ava": {
     "babel": true
-  },
-  "dependencies": {
-    "stylelint-order": "^4.1.0",
-    "stylelint-suitcss": "^3.0.0"
   }
 }
