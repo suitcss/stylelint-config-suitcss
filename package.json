@@ -23,7 +23,6 @@
     "ava": "ava --verbose \"__tests__/**/*.js\"",
     "lint": "eslint . --ignore-path .gitignore",
     "pretest": "yarn run lint",
-    "release": "npmpub",
     "test": "yarn run ava"
   },
   "dependencies": {
@@ -35,7 +34,6 @@
     "ava": "^3.15.0",
     "eslint": "^7.32.0",
     "eslint-config-stylelint": "^13.1.1",
-    "npmpub": "^5.0.0",
     "stylelint": "^13.13.1"
   },
   "peerDependencies": {
