@@ -1,6 +1,6 @@
 # stylelint-config-suitcss
 
-[![NPM version](http://img.shields.io/npm/v/stylelint-config-suitcss.svg)](https://www.npmjs.org/package/stylelint-config-suitcss) [![Build Status](https://github.com/suitcss/stylelint-config-suitcss/actions/workflows/ci.yml/badge.svg)](https://github.com/suitcss/stylelint-config-suitcss/actions/workflows/ci.yml)
+[![NPM version](http://img.shields.io/npm/v/stylelint-config-suitcss.svg)](https://www.npmjs.com/package/stylelint-config-suitcss) [![Build Status](https://github.com/suitcss/stylelint-config-suitcss/actions/workflows/ci.yml/badge.svg)](https://github.com/suitcss/stylelint-config-suitcss/actions/workflows/ci.yml)
 
 > SUIT CSS shareable config for stylelint.
 
