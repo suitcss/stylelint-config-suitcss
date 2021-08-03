@@ -1,3 +1,5 @@
+* Updated: `stylelint-suitcss` to `4.0.0`
+
 # 16.0.0
 
 * Updated: `npmpub` to `5.0.0`

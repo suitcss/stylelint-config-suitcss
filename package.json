@@ -28,14 +28,15 @@
   },
   "dependencies": {
     "stylelint-order": "^4.1.0",
-    "stylelint-suitcss": "^3.0.0"
+    "stylelint-suitcss": "^4.0.0"
   },
   "devDependencies": {
     "@ava/babel": "^2.0.0",
     "ava": "^3.15.0",
     "eslint": "^7.32.0",
     "eslint-config-stylelint": "^13.1.1",
-    "npmpub": "^5.0.0"
+    "npmpub": "^5.0.0",
+    "stylelint": "^13.13.1"
   },
   "peerDependencies": {
     "stylelint": "^13.13.1"
