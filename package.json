@@ -19,27 +19,28 @@
   "files": [
     "index.js"
   ],
+  "jest": {
+    "verbose": true
+  },
   "scripts": {
-    "ava": "ava --verbose \"__tests__/**/*.js\"",
     "lint": "eslint . --ignore-path .gitignore",
     "pretest": "yarn run lint",
-    "test": "yarn run ava"
+    "test": "jest"
   },
   "dependencies": {
-    "stylelint-order": "^4.1.0",
+    "stylelint-order": "^5.0.0",
     "stylelint-suitcss": "^4.0.0"
   },
   "devDependencies": {
-    "@ava/babel": "^2.0.0",
-    "ava": "^3.15.0",
-    "eslint": "^7.32.0",
-    "eslint-config-stylelint": "^13.1.1",
-    "stylelint": "^13.13.1"
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-jest": "^27.4.6",
+    "eslint": "^8.6.0",
+    "eslint-config-stylelint": "^15.0.0",
+    "jest": "^27.4.7",
+    "stylelint": "^14.2.0"
   },
   "peerDependencies": {
-    "stylelint": "^13.13.1"
-  },
-  "ava": {
-    "babel": true
+    "stylelint": "^14.2.0"
   }
 }
