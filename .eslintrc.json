@@ -1,4 +1,8 @@
 {
+  "globals": {
+    "module": true,
+    "__dirname": true
+  },
   "extends": [
     "stylelint"
   ],
