@@ -3659,15 +3659,7 @@ postcss-safe-parser@^6.0.0:
   resolved "https://registry.yarnpkg.com/postcss-safe-parser/-/postcss-safe-parser-6.0.0.tgz#bb4c29894171a94bc5c996b9a30317ef402adaa1"
   integrity sha512-FARHN8pwH+WiS2OPCxJI8FuRJpTVnn6ZNFiqAM2aeW2LwTHWWmWgIyKC6cUo0L8aeKiF/14MNvnpls6R2PBeMQ==
 
-postcss-selector-parser@^6.0.6:
-  version "6.0.6"
-  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.6.tgz#2c5bba8174ac2f6981ab631a42ab0ee54af332ea"
-  integrity sha512-9LXrvaaX3+mcv5xkg5kFwqSzSH1JIObIx51PrndZwlmznwXRfxMddDvo9gve3gVR8ZTKgoFDdWkbRFmEhT4PMg==
-  dependencies:
-    cssesc "^3.0.0"
-    util-deprecate "^1.0.2"
-
-postcss-selector-parser@^6.0.7:
+postcss-selector-parser@^6.0.7, postcss-selector-parser@^6.0.8:
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.8.tgz#f023ed7a9ea736cd7ef70342996e8e78645a7914"
   integrity sha512-D5PG53d209Z1Uhcc0qAZ5U3t5HagH3cxu+WLZ22jt3gLUpXM4eXXfiO14jiDWST3NNooX/E8wISfOhZ9eIjGTQ==
@@ -4157,13 +4149,14 @@ stylelint-order@^5.0.0:
     postcss "^8.3.11"
     postcss-sorting "^7.0.1"
 
-stylelint-suitcss@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-suitcss/-/stylelint-suitcss-4.0.0.tgz#505d03c3b55c20fc7225554d48245e6748bdd19a"
-  integrity sha512-oVTd6ga/CoAssjm0hiTLJu7vMa6ib/xCJz1eGAIJTs+eW1s4WhCyc5zNTk3mD5i2PmCeY/sM8QzXPGKz3tYkDw==
+stylelint-suitcss@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-suitcss/-/stylelint-suitcss-5.0.0.tgz#3c300a62fdab57f56add92dc12a8b3eceac8848d"
+  integrity sha512-ezx4lVcqE0S9dN5oRWc9BantR3xJk3Dg3ZKH4BOzkhA/4r9/1VhpB4lc9svguC1VzOnzs/b/6jLKRAzZk7ZWNA==
   dependencies:
     lodash.find "^4.6.0"
-    postcss-selector-parser "^6.0.6"
+    postcss-selector-parser "^6.0.8"
+    stylelint "^14.2.0"
 
 stylelint@^14.2.0:
   version "14.2.0"

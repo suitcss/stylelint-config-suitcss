@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "stylelint-order": "^5.0.0",
-    "stylelint-suitcss": "^4.0.0"
+    "stylelint-suitcss": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
