@@ -1,3 +1,7 @@
+# 18.0.0
+
+* Updated: `stylelint-suitcss` to `5.0.0`
+
 # 17.0.0
 
 * Updated: `stylelint-suitcss` to `4.0.0`
