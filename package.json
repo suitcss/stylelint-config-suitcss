@@ -28,17 +28,17 @@
     "test": "jest"
   },
   "dependencies": {
-    "stylelint-order": "^5.0.0",
+    "stylelint-order": "^6.0.3",
     "stylelint-suitcss": "^5.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "@babel/preset-env": "^7.16.8",
-    "babel-jest": "^27.4.6",
-    "eslint": "^8.6.0",
-    "eslint-config-stylelint": "^15.0.0",
-    "jest": "^27.4.7",
-    "stylelint": "^14.2.0"
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-jest": "^29.5.0",
+    "eslint": "^8.39.0",
+    "eslint-config-stylelint": "^18.0.0",
+    "jest": "^29.5.0",
+    "stylelint": "^15.6.0"
   },
   "peerDependencies": {
     "stylelint": "^14.2.0"

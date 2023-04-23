@@ -9,6 +9,9 @@
   "parserOptions": {
     "sourceType": "module"
   },
+  "env": {
+    "jest": true
+  },
   "rules": {
     "jest/expect-expect": "off",
     "jest/no-done-callback": "off",
