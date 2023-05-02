@@ -5,9 +5,7 @@ import stylelint from "stylelint";
 const validCss = fs.readFileSync(`${__dirname}/valid.css`, "utf-8");
 
 const invalidCss = (
-`a {
-  top: .2em;
-}
+`a {}
 `);
 
 test("no warnings with valid css", () =>
@@ -35,6 +33,6 @@ test("a warning with invalid css", () =>
 
     expect(errored).toBeTruthy();
     expect(warnings).toHaveLength(1);
-    expect(warnings[0].text).toBe("Expected a leading zero (number-leading-zero)");
+    expect(warnings[0].text).toBe("Unexpected empty block (block-no-empty)");
   })
 );

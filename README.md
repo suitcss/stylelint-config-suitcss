@@ -26,14 +26,13 @@ Set your stylelint config to:
 
 Simply add a `"rules"` key to your config and add your overrides there.
 
-For example, to change the `indentation` to tabs and turn off the `number-leading-zero` rule:
+For example, to allow empty blocks in your CSS turn off the `block-no-empty` rule:
 
 ```json
 {
   "extends": "stylelint-config-suitcss",
   "rules": {
-    "indentation": "tab",
-    "number-leading-zero": null
+    "block-no-empty": null
   }
 }
 ```
