@@ -1,3 +1,9 @@
+# 19.0.0
+
+* Removed: Deprecated Stylelint v15 rules
+* Updated: `stylelint` to `15.6.0`
+* Updated: `stylelint-order` to `6.0.3`
+
 # 18.0.0
 
 * Updated: `stylelint-suitcss` to `5.0.0`
