@@ -2,7 +2,7 @@
 
 [![NPM version](http://img.shields.io/npm/v/stylelint-config-suitcss.svg)](https://www.npmjs.com/package/stylelint-config-suitcss) [![Build Status](https://github.com/suitcss/stylelint-config-suitcss/actions/workflows/ci.yml/badge.svg)](https://github.com/suitcss/stylelint-config-suitcss/actions/workflows/ci.yml)
 
-> SUIT CSS shareable config for stylelint.
+> SUIT CSS shareable config for Stylelint.
 
 Configuration rules to ensure your CSS code is compliant with [SUIT CSS's code style](https://github.com/suitcss/suit/blob/master/doc/STYLE.md).
 
@@ -14,7 +14,7 @@ $ npm install stylelint-config-suitcss
 
 ## Usage
 
-Set your stylelint config to:
+Set your Stylelint config to:
 
 ```json
 {
