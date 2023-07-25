@@ -27,6 +27,16 @@
     "pretest": "yarn lint",
     "test": "jest"
   },
+  "eslintConfig": {
+    "extends": [
+      "stylelint",
+      "stylelint/jest"
+    ],
+    "globals": {
+      "module": true,
+      "require": true
+    }
+  },
   "dependencies": {
     "stylelint-order": "^6.0.3",
     "stylelint-suitcss": "^5.0.0"
@@ -40,6 +50,7 @@
     "babel-jest": "^29.6.1",
     "eslint": "^8.45.0",
     "eslint-config-stylelint": "^19.0.0",
+    "eslint-plugin-jest": "^27.2.3",
     "jest": "^29.6.1",
     "stylelint": "^15.10.2"
   }

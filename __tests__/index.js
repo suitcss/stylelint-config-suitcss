@@ -1,9 +1,8 @@
-import config from "../";
-import fs from "fs";
-import stylelint from "stylelint";
+const config = require("../");
+const fs = require("fs");
+const stylelint = require("stylelint");
 
 const validCss = fs.readFileSync(`${__dirname}/valid.css`, "utf-8");
-
 const invalidCss = (
 `a {}
 `);
