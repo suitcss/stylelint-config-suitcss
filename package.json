@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-suitcss",
   "version": "19.0.0",
-  "description": "SUIT CSS config for stylelint",
+  "description": "SUIT CSS config for Stylelint",
   "keywords": [
     "stylelint",
     "stylelint-config",
