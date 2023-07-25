@@ -1,3 +1,7 @@
+# 20.0.0
+
+* Updated: `stylelint` peer dependency to `^15.0.0`
+
 # 19.0.0
 
 * Removed: Deprecated Stylelint v15 rules
