@@ -28,7 +28,7 @@
   },
   "scripts": {
     "lint": "eslint . --ignore-path .gitignore",
-    "pretest": "yarn lint",
+    "pretest": "npm run lint",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "eslintConfig": {
