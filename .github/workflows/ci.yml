@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [ '16', '18', '20' ]
+        node: [ '18', '20', '21' ]
     name: Run tests on Node ${{ matrix.node }}
     steps:
       - name: Checkout repository

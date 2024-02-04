@@ -19,6 +19,9 @@
   "files": [
     "index.js"
   ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "jest": {
     "verbose": true
   },
