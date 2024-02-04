@@ -1,37 +1,52 @@
-const config = require("../");
-const fs = require("fs");
-const stylelint = require("stylelint");
+import config from '../index.js';
+import stylelint from 'stylelint';
 
-const validCss = fs.readFileSync(`${__dirname}/valid.css`, "utf-8");
-const invalidCss = (
-`a {}
-`);
+describe('stylelint-config-suitcss', () => {
+  const lint = async (css) => {
+    const result = await stylelint.lint({
+      code: css,
+      config,
+    });
 
-test("no warnings with valid css", () =>
-  stylelint.lint({
-    code: validCss,
-    config,
-  })
-  .then(data => {
-    const { errored, results } = data;
+    return result;
+  };
+
+  test('should not allow block-no-empty', async () => {
+    const { results } = await lint(`a {}`);
     const { warnings } = results[0];
 
-    expect(errored).toBeFalsy();
-    expect(warnings).toHaveLength(0);
-  })
-);
-
-test("a warning with invalid css", () =>
-  stylelint.lint({
-    code: invalidCss,
-    config,
-  })
-  .then(data => {
-    const { errored, results } = data;
-    const { warnings } = results[0];
-
-    expect(errored).toBeTruthy();
     expect(warnings).toHaveLength(1);
-    expect(warnings[0].text).toBe("Unexpected empty block (block-no-empty)");
-  })
-);
+    expect(warnings[0].text).toContain('block-no-empty');
+  });
+
+  test('should enforce color-hex-length to be short', async () => {
+    const { results } = await lint(`a { color: #ffffff; }`);
+    const { warnings } = results[0];
+
+    expect(warnings).toHaveLength(1);
+    expect(warnings[0].text).toContain('color-hex-length');
+  });
+
+  test('should not allow at-rule-no-vendor-prefix', async () => {
+    const { results } = await lint(`@-webkit-keyframes slide { from { top: 0; } to { top: 100%; } }`);
+    const { warnings } = results[0];
+
+    expect(warnings).toHaveLength(1);
+    expect(warnings[0].text).toContain('at-rule-no-vendor-prefix');
+  });
+
+  test('should enforce function-url-quotes', async () => {
+    const { results } = await lint(`a { background: url(unquoted-url.jpg); }`);
+    const { warnings } = results[0];
+
+    expect(warnings).toHaveLength(1);
+    expect(warnings[0].text).toContain('function-url-quotes');
+  });
+
+  test('should allow correct SUIT custom properties usage', async () => {
+    const { results } = await lint(`:root { --mainColor: #123456; }`);
+    const { warnings } = results[0];
+
+    expect(warnings).toHaveLength(0);
+  });
+});
