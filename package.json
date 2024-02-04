@@ -41,7 +41,7 @@
     }
   },
   "dependencies": {
-    "stylelint-order": "^6.0.3",
+    "stylelint-order": "^6.0.4",
     "stylelint-suitcss": "^5.0.0"
   },
   "peerDependencies": {
